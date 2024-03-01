@@ -21,9 +21,21 @@
   padding-top:0;
 }
 
-.btn:hover {
-  color: black;
-  background-color: #ffe18c;
-  border: none;
-  transition: background-color 0.3s ease;
+.btn-primary {
+  color: white;
+  background-color: #E33E19;
+  border-color: #E33E19;
+}
+
+.btn-primary:hover {
+  background-color: #C62700;
+  border-color: #C62700;
+}
+.custom-center {
+  left: 25%;
+  transform: translate(-15%, -30%);
+}
+
+h6.text-white {
+  color: #E33E19 !important;
 }
